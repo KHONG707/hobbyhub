@@ -1,0 +1,175 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+input, textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.navbar {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: white;
+  font-weight: bold;
+}
+
+.post {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: white;
+}
+
+.post h3 {
+  color: #28a745;
+}
+
+button.delete {
+  background-color: #dc3545;
+}
+
+button.delete:hover {
+  background-color: #c82333;
+}
+
+.comments {
+  margin-top: 20px;
+}
+
+.comments textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.comments ul {
+  list-style: none;
+  padding: 0;
+}
+
+.comments li {
+  margin-bottom: 5px;
+  background: #f5f5f5;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2ca58d;
+  color: white;
+  padding: 10px 20px;
+}
+
+.navbar input {
+  padding: 5px;
+  border-radius: 4px;
+  border: none;
+}
+
+.navbar button {
+  background-color: white;
+  color: #2ca58d;
+  border: none;
+  margin-left: 10px;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.navbar button:hover {
+  background-color: #249e82;
+  color: white;
+}
+
+
+.update-post {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.update-post input,
+.update-post textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.update-post button {
+  background-color: #2ca58d;
+  color: white;
+}
+
+
+/* Add this to your CSS file */
+select {
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+select:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+
+.upvote {
+  transition: transform 0.2s ease-in-out;
+}
+
+.upvote.animate {
+  transform: scale(1.3);
+}
