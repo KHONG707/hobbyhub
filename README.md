@@ -27,7 +27,7 @@ The following **required** functionality is completed:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![Kapture 2024-11-20 at 23 54 30](https://github.com/user-attachments/assets/08eb82c0-7e6b-43d8-bfb3-c0078ac0e623)
 
 
 GIF created with [Kap](https://getkap.co/) for macOS
